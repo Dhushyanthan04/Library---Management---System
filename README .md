@@ -1,17 +1,18 @@
 # Library Management System
 
-A simple Java backend project demonstrating *OOPs concepts* (Encapsulation, Classes, Objects, Constructor, Getters).  
+A Java backend project demonstrating *OOPs concepts* and *simple backend logic*.
 
 ## Features
 - Create books and members
-- Assign books to members
-- Display book & member details  
+- Issue book to a member (if available)
+- Return book from a member
+- Show available books
+- Uses OOPs principles: Classes, Objects, Encapsulation, Methods
 
 ## Tech Stack
 - Java (Core + OOPs)
-- (Optional later) JDBC + MySQL
 
 ## How to Run
-1. Compile all .java files  
-   ```bash
-   javac Main.java Book.java Member.java
+1. Compile all .java files:
+```bash
+javac Main.java Book.java Member.java Library.java
